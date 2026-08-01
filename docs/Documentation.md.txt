@@ -1,0 +1,105 @@
+# RFID Attendance System Documentation
+
+## Project Overview
+
+The RFID Attendance System is an IoT-based attendance solution developed using the ESP32 microcontroller and the MFRC522 RFID Reader. The system automatically records attendance by scanning RFID cards or tags and uploads the attendance data to Google Sheets over Wi-Fi.
+
+---
+
+# Objectives
+
+- Automate attendance recording
+- Reduce manual errors
+- Store attendance records in the cloud
+- Provide real-time date and time logging
+- Improve attendance management efficiency
+
+---
+
+# Hardware Components
+
+- ESP32 Development Board
+- MFRC522 RFID Reader
+- RFID Cards / Tags
+- Breadboard
+- Jumper Wires
+- USB Cable
+- Wi-Fi Network
+
+---
+
+# Software Used
+
+- Arduino IDE
+- ESP32 Board Package
+- MFRC522 Library
+- SPI Library
+- WiFi Library
+- Google Apps Script
+- Google Sheets
+
+---
+
+# Block Diagram
+
+<p align="center">
+<img src="../hardware/Block_Diagram.png" width="800">
+</p>
+
+---
+
+# Circuit Diagram
+
+<p align="center">
+<img src="../hardware/Circuit_Diagram.png" width="800">
+</p>
+
+---
+
+# Working Principle
+
+1. Power on the ESP32.
+2. Connect to the configured Wi-Fi network.
+3. Scan an RFID card or tag.
+4. Read the UID using the MFRC522 module.
+5. Verify the UID.
+6. Fetch the current date and time.
+7. Upload the attendance record to Google Sheets.
+8. Display attendance status.
+
+---
+
+# Applications
+
+- College Attendance
+- School Attendance
+- Office Attendance
+- Employee Monitoring
+- Library Management
+- Hostel Entry System
+
+---
+
+# Future Scope
+
+- Mobile Application
+- Firebase Integration
+- Face Recognition
+- Fingerprint Authentication
+- Web Dashboard
+- Attendance Analytics
+
+---
+
+# Authors
+
+- Mukul Vaid
+- Deepanshu
+- Mohit
+- Sahil
+
+---
+
+# License
+
+This project is developed for educational and academic purposes.
