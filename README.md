@@ -4,7 +4,7 @@
 
 ### Smart Attendance Management using ESP32, RFID & Google Sheets
 
-<img src="./images/RFID attendence system.png" alt="RFID Attendance Banner" width="100%">
+<img src="./images/RFID attendence system.png" alt="RFID attendence system.png" width="100%">
 
 <br>
 
