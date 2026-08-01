@@ -1,10 +1,10 @@
-<div align="center">
+z<div align="center">
 
 # 📡 RFID Attendance System
 
 ### Smart Attendance Management using ESP32, RFID & Google Sheets
 
-<img src="images/banner.png" width="100%">
+<img src="images/RFID attendence system.png" width="100%">
 
 <br>
 
@@ -29,7 +29,7 @@ This project provides an **IoT-based Smart Attendance System** using the **ESP32
 
 <p align="center">
 
-<img src="images/rfid-attendance-system.png" width="850">
+<img src="images/RFID syatem.png" width="850">
 
 <br><br>
 
