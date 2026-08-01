@@ -1,10 +1,10 @@
-z<div align="center">
+<div align="center">
 
 # 📡 RFID Attendance System
 
 ### Smart Attendance Management using ESP32, RFID & Google Sheets
 
-<img src="images/RFID attendence system.png" width="100%">
+<img src="./images/banner.png" alt="RFID Attendance Banner" width="100%">
 
 <br>
 
@@ -19,70 +19,61 @@ z<div align="center">
 
 # 🚀 About the Project
 
-Managing attendance manually is time-consuming and prone to errors.
+The **RFID Attendance System** is an ESP32-based IoT solution that automates attendance using the **MFRC522 RFID Reader**. When a registered RFID card is scanned, the system authenticates the user, records the **Date**, **Time**, and **Attendance Status (Check-In / Check-Out)**, and uploads the data directly to **Google Sheets** over Wi-Fi.
 
-This project provides an **IoT-based Smart Attendance System** using the **ESP32** and **MFRC522 RFID Module**. Every time an RFID card is scanned, the system identifies the user, records the **Date**, **Time**, and **Attendance Status**, and instantly stores the information in **Google Sheets** through Wi-Fi.
+This project is suitable for schools, colleges, offices, laboratories, and other organizations that require a reliable digital attendance system.
 
 ---
 
-# 📸 Preview
+# 📸 Project Preview
+
+## RFID Attendance System
 
 <p align="center">
-
-<img src="images/RFID syatem.png" width="850">
-
-<br><br>
-
-<img src="images/google-sheet-output.png" width="850">
-
+<img src="./images/rfid-system.png" width="850">
 </p>
 
 ---
 
-# ⚡ Features
+## Google Sheets Attendance Log
 
-<table>
-<tr>
-<td>📶 Wi-Fi Enabled</td>
-<td>🪪 RFID Authentication</td>
-</tr>
+<p align="center">
+<img src="./images/google-sheet-output.png" width="850">
+</p>
 
-<tr>
-<td>📅 Real-Time Date</td>
-<td>⏰ Real-Time Time</td>
-</tr>
+---
 
-<tr>
-<td>📊 Google Sheets Logging</td>
-<td>✅ Check-In / Check-Out</td>
-</tr>
+# ✨ Features
 
-<tr>
-<td>⚡ Fast Response</td>
-<td>🔒 Secure UID Verification</td>
-</tr>
-
-</table>
+- 📶 ESP32 Wi-Fi Connectivity
+- 🪪 RFID Card Authentication
+- ⏰ Real-Time Date & Time Logging
+- 📊 Google Sheets Integration
+- ✅ Automatic Check-In / Check-Out
+- ⚡ Fast Attendance Processing
+- 🔒 Unique RFID UID Verification
+- 🌐 Cloud-Based Data Storage
 
 ---
 
 # 🛠 Hardware Used
 
-| Hardware | Description |
+| Component | Description |
 |-----------|-------------|
-| ESP32 | Main Controller |
-| MFRC522 | RFID Reader |
-| RFID Tags | User Identification |
-| Breadboard | Prototype |
+| ESP32 Development Board | Main Controller |
+| MFRC522 RFID Reader | RFID Authentication |
+| RFID Cards / Tags | User Identification |
+| Breadboard | Circuit Assembly |
 | Jumper Wires | Connections |
-| Wi-Fi | Cloud Communication |
+| USB Cable | Power Supply |
+| Wi-Fi | Internet Connectivity |
 
 ---
 
-# 🔌 Wiring Diagram
+# 🔌 Circuit Connections
 
-| MFRC522 | ESP32 |
-|---------|-------|
+| MFRC522 Pin | ESP32 Pin |
+|-------------|-----------|
 | SDA | GPIO 5 |
 | SCK | GPIO 18 |
 | MOSI | GPIO 23 |
@@ -96,48 +87,74 @@ This project provides an **IoT-based Smart Attendance System** using the **ESP32
 # 🔄 System Workflow
 
 ```text
-RFID Card
-     │
-     ▼
-RFID Reader
-     │
-     ▼
-ESP32
-     │
-     ▼
-User Verification
-     │
-     ▼
-Current Date & Time
-     │
-     ▼
-Google Sheets
+RFID Card / Tag
+        │
+        ▼
+MFRC522 RFID Reader
+        │
+        ▼
+ESP32 Controller
+        │
+        ▼
+User Authentication
+        │
+        ▼
+Date & Time Logging
+        │
+        ▼
+Google Sheets Database
 ```
 
 ---
 
-# 📂 Repository Structure
+# 📁 Repository Structure
 
 ```text
-RFID-Attendance-System
+RFID-Attendance-System/
 │
 ├── README.md
 ├── code/
+├── docs/
 ├── hardware/
-├── images/
-└── docs/
+└── images/
+    ├── banner.png
+    ├── rfid-system.png
+    └── google-sheet-output.png
 ```
+
+---
+
+# 🚀 Getting Started
+
+### Software Required
+
+- Arduino IDE
+- ESP32 Board Package
+- MFRC522 Library
+- SPI Library
+- WiFi Library
+- Google Apps Script
+
+### Steps
+
+1. Install Arduino IDE.
+2. Install the ESP32 Board Package.
+3. Connect the MFRC522 module to the ESP32.
+4. Configure your Wi-Fi credentials.
+5. Upload the program to the ESP32.
+6. Scan an RFID card.
+7. View attendance records in Google Sheets.
 
 ---
 
 # 🌍 Applications
 
-- 🎓 College Attendance
-- 🏫 School Attendance
-- 🏢 Office Attendance
-- 📚 Library Access
-- 🏠 Hostel Entry
-- 🏭 Industrial Employee Tracking
+- 🎓 College Attendance System
+- 🏫 School Attendance System
+- 🏢 Office Attendance Management
+- 📚 Library Access Control
+- 🏠 Hostel Entry Monitoring
+- 🏭 Employee Attendance Tracking
 
 ---
 
@@ -147,23 +164,30 @@ RFID-Attendance-System
 - ☁ Firebase Integration
 - 👤 Face Recognition
 - ✋ Fingerprint Authentication
-- 📊 Analytics Dashboard
+- 📊 Web Dashboard
 - 📧 Email Notifications
+- 📈 Attendance Analytics
 
 ---
 
 # 👨‍💻 Author
 
-## Mukul Vaid
+### Mukul Vaid
 
-IoT Developer • Embedded Systems Enthusiast • ESP32 Projects
+**IoT Developer | ESP32 Enthusiast | Embedded Systems**
+
+---
+
+# 📜 License
+
+This project is intended for educational and academic purposes.
 
 ---
 
 <div align="center">
 
-## ⭐ If you like this project, please give it a Star ⭐
+## ⭐ If you found this project useful, please give it a Star!
 
-Made with ❤️ using ESP32
+**Made with ❤️ using ESP32**
 
 </div>
