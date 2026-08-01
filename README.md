@@ -32,7 +32,7 @@ This system reduces manual work, improves attendance accuracy, and provides real
 ## RFID Attendance System
 
 <p align="center">
-<img src="./images/RFID syetem.png" width="850">
+<img src="./images/RFID system.png" width="850">
 </p>
 
 ---
